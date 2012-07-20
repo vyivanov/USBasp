@@ -307,8 +307,9 @@ int main(void)
 #endif
     if(bootLoaderCondition()){
         
-        DDRC  |=  (1 << PC1);         // ############
-        PORTC &= ~(1 << PC1);         // ############
+        // Green LED on
+        DDRC  |=  (1 << PC1);
+        PORTC &= ~(1 << PC1);
         
         uchar i = 0, j = 0;
         initForUsbConnectivity();
@@ -325,8 +326,9 @@ int main(void)
         }while(bootLoaderCondition());  /* main event loop */
     }
     
-    DDRC  |= (1 << PC1);              // #############
-    PORTC |= (1 << PC1);              // #############
+    // Green LED off
+    DDRC  |= (1 << PC1);
+    PORTC |= (1 << PC1);
     
     leaveBootloader();
     return 0;
