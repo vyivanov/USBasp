@@ -69,10 +69,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="10.16" y1="16.002" x2="53.701" y2="16.002" width="0" layer="20"/>
-<wire x1="53.701" y1="16.002" x2="53.701" y2="56.058" width="0" layer="20"/>
-<wire x1="53.701" y1="56.058" x2="10.16" y2="56.058" width="0" layer="20"/>
-<wire x1="10.16" y1="56.058" x2="10.16" y2="16.002" width="0" layer="20"/>
+<wire x1="10.16" y1="16.002" x2="53.701" y2="16.002" width="0.127" layer="20"/>
+<wire x1="53.701" y1="16.002" x2="53.701" y2="56.058" width="0.127" layer="20"/>
+<wire x1="53.701" y1="56.058" x2="10.16" y2="56.058" width="0.127" layer="20"/>
+<wire x1="10.16" y1="56.058" x2="10.16" y2="16.002" width="0.127" layer="20"/>
 </plain>
 <libraries>
 <library name="Passive-PoE-ClassB">
@@ -98,6 +98,26 @@ by exp-project-lbr.ulp</description>
 <smd name="2" x="1.5807" y="0" dx="1.2" dy="1.9" layer="1"/>
 <text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="C1206">
+<description>&lt;b&gt;CAPACITOR&lt;/b&gt;</description>
+<wire x1="-2.3143" y1="0.983" x2="2.3142" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.3142" y1="-0.983" x2="-2.3142" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-2.3142" y1="-0.983" x2="-2.3143" y2="0.983" width="0.0508" layer="39"/>
+<wire x1="2.3142" y1="0.983" x2="2.3142" y2="-0.983" width="0.0508" layer="39"/>
+<wire x1="-0.965" y1="0.787" x2="0.965" y2="0.787" width="0.1016" layer="51"/>
+<wire x1="-0.965" y1="-0.787" x2="0.965" y2="-0.787" width="0.1016" layer="51"/>
+<wire x1="-2.3813" y1="1.1113" x2="2.3814" y2="1.1113" width="0.127" layer="21"/>
+<wire x1="2.3814" y1="1.1113" x2="2.3813" y2="-1.1113" width="0.127" layer="21"/>
+<wire x1="2.3813" y1="-1.1113" x2="-2.3813" y2="-1.1113" width="0.127" layer="21"/>
+<wire x1="-2.3813" y1="-1.1113" x2="-2.3813" y2="1.1113" width="0.127" layer="21"/>
+<rectangle x1="-1.7018" y1="-0.8509" x2="-0.9517" y2="0.8491" layer="51"/>
+<rectangle x1="0.9517" y1="-0.8491" x2="1.7018" y2="0.8509" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.4001" x2="0.1999" y2="0.4001" layer="35"/>
+<smd name="1" x="-1.5588" y="0" dx="1.2" dy="1.9" layer="1"/>
+<smd name="2" x="1.5588" y="0" dx="1.2" dy="1.9" layer="1"/>
+<text x="-2.3813" y="1.4287" size="1.27" layer="25">&gt;NAME</text>
+<text x="-2.3812" y="-2.6988" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -201,16 +221,16 @@ by exp-project-lbr.ulp</description>
 <rectangle x1="-0.254" y1="-1.524" x2="0.254" y2="-1.016" layer="51"/>
 <rectangle x1="4.826" y1="-1.524" x2="5.334" y2="-1.016" layer="51"/>
 <rectangle x1="2.286" y1="-1.524" x2="2.794" y2="-1.016" layer="51"/>
-<pad name="1" x="-5.08" y="-1.27" drill="0.8" diameter="1.778"/>
-<pad name="2" x="-5.08" y="1.27" drill="0.8" diameter="1.778"/>
-<pad name="3" x="-2.54" y="-1.27" drill="0.8" diameter="1.778"/>
-<pad name="4" x="-2.54" y="1.27" drill="0.8" diameter="1.778"/>
-<pad name="5" x="0" y="-1.27" drill="0.8" diameter="1.778"/>
-<pad name="6" x="0" y="1.27" drill="0.8" diameter="1.778"/>
-<pad name="7" x="2.54" y="-1.27" drill="0.8" diameter="1.778"/>
-<pad name="8" x="2.54" y="1.27" drill="0.8" diameter="1.778"/>
-<pad name="9" x="5.08" y="-1.27" drill="0.8" diameter="1.778"/>
-<pad name="10" x="5.08" y="1.27" drill="0.8" diameter="1.778"/>
+<pad name="1" x="-5.08" y="-1.27" drill="0.9" diameter="1.9304"/>
+<pad name="2" x="-5.08" y="1.27" drill="0.9" diameter="1.9304"/>
+<pad name="3" x="-2.54" y="-1.27" drill="0.9" diameter="1.9304"/>
+<pad name="4" x="-2.54" y="1.27" drill="0.9" diameter="1.9304"/>
+<pad name="5" x="0" y="-1.27" drill="0.9" diameter="1.9304"/>
+<pad name="6" x="0" y="1.27" drill="0.9" diameter="1.9304"/>
+<pad name="7" x="2.54" y="-1.27" drill="0.9" diameter="1.9304"/>
+<pad name="8" x="2.54" y="1.27" drill="0.9" diameter="1.9304"/>
+<pad name="9" x="5.08" y="-1.27" drill="0.9" diameter="1.9304"/>
+<pad name="10" x="5.08" y="1.27" drill="0.9" diameter="1.9304"/>
 <text x="-1.016" y="-4.064" size="1.27" layer="21" ratio="10">10</text>
 <text x="-10.16" y="5.08" size="1.778" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="5.08" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
@@ -242,32 +262,10 @@ by exp-project-lbr.ulp</description>
 <wire x1="1.5875" y1="1.27" x2="1.5875" y2="0.9525" width="0.127" layer="21"/>
 <wire x1="1.5875" y1="-1.27" x2="1.5875" y2="-0.9525" width="0.127" layer="21"/>
 <wire x1="1.5875" y1="0.9525" x2="1.5875" y2="-0.9525" width="0.127" layer="51"/>
-<pad name="A" x="-1.27" y="0" drill="0.7" diameter="1.6764"/>
-<pad name="K" x="1.27" y="0" drill="0.7" diameter="1.6764"/>
+<pad name="A" x="-1.27" y="0" drill="0.8" diameter="1.9304"/>
+<pad name="K" x="1.27" y="0" drill="0.8" diameter="1.9304"/>
 <text x="-1.905" y="2.4447" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="-2.6988" y="-3.7147" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-</package>
-<package name="C050-025X075">
-<description>&lt;b&gt;CAPACITOR&lt;/b&gt;&lt;p&gt;
-grid 5 mm, outline 2.5 x 7.5 mm</description>
-<wire x1="-0.3048" y1="0.635" x2="-0.3048" y2="0" width="0.3048" layer="21"/>
-<wire x1="-0.3048" y1="0" x2="-0.3048" y2="-0.635" width="0.3048" layer="21"/>
-<wire x1="-0.3048" y1="0" x2="-1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.3302" y1="0.635" x2="0.3302" y2="0" width="0.3048" layer="21"/>
-<wire x1="0.3302" y1="0" x2="0.3302" y2="-0.635" width="0.3048" layer="21"/>
-<wire x1="0.3302" y1="0" x2="1.524" y2="0" width="0.1524" layer="21"/>
-<wire x1="-3.683" y1="1.016" x2="-3.683" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="-3.429" y1="-1.27" x2="3.429" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.683" y1="-1.016" x2="3.683" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="1.27" x2="-3.429" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.429" y1="1.27" x2="3.683" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="3.429" y1="-1.27" x2="3.683" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="-3.683" y1="-1.016" x2="-3.429" y2="-1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="-3.683" y1="1.016" x2="-3.429" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<pad name="1" x="-2.54" y="0" drill="0.7" diameter="1.6764"/>
-<pad name="2" x="2.54" y="0" drill="0.7" diameter="1.6764"/>
-<text x="-3.429" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-3.429" y="-2.794" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -480,9 +478,9 @@ design rules under a new name.</description>
 <element name="R4" library="Passive-PoE-ClassB" package="R1206" value="240" x="35.56" y="46.736" rot="MR270"/>
 <element name="R5" library="Passive-PoE-ClassB" package="R1206" value="1k" x="38.1" y="38.608" rot="MR90"/>
 <element name="R6" library="Passive-PoE-ClassB" package="R1206" value="510" x="40.64" y="23.876" rot="MR0"/>
-<element name="C1" library="Optoisolator" package="C050-025X075" value="470n" x="35.56" y="37.592" rot="R270"/>
-<element name="C2" library="Optoisolator" package="C050-025X075" value="470n" x="22.86" y="50.8" rot="R90"/>
-<element name="C3" library="Optoisolator" package="C050-025X075" value="470n" x="35.56" y="21.336" rot="R270"/>
+<element name="C1" library="Passive-PoE-ClassB" package="C1206" value="470n" x="30.734" y="48.26" rot="MR90"/>
+<element name="C2" library="Passive-PoE-ClassB" package="C1206" value="470n" x="22.86" y="50.8" rot="MR90"/>
+<element name="C3" library="Passive-PoE-ClassB" package="C1206" value="470n" x="35.56" y="21.336" rot="MR270"/>
 </elements>
 <signals>
 <signal name="N$1">
@@ -647,8 +645,8 @@ design rules under a new name.</description>
 <polygon width="0.3048" layer="16">
 <vertex x="50.546" y="50.8"/>
 <vertex x="33.02" y="50.8"/>
-<vertex x="33.02" y="49.53"/>
-<vertex x="29.972" y="49.53"/>
+<vertex x="33.02" y="47.498"/>
+<vertex x="29.972" y="47.498"/>
 <vertex x="29.972" y="22.606"/>
 <vertex x="33.02" y="22.606"/>
 <vertex x="33.02" y="21.336"/>
@@ -706,8 +704,8 @@ design rules under a new name.</description>
 <vertex x="53.594" y="16.256"/>
 <vertex x="53.594" y="55.626"/>
 <vertex x="29.972" y="55.626"/>
-<vertex x="29.972" y="52.07"/>
-<vertex x="33.02" y="52.07"/>
+<vertex x="29.972" y="48.768"/>
+<vertex x="33.02" y="48.768"/>
 <vertex x="33.02" y="50.8"/>
 <vertex x="41.402" y="50.8"/>
 <vertex x="41.402" y="52.07"/>
